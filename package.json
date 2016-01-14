@@ -1,0 +1,22 @@
+{
+  "name": "jasmine-gulp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "dependencies": {},
+  "devDependencies": {
+    "saucelabs-runner": "^2.2.4"
+  },
+  "config": {
+    "port": 8001
+  },
+  
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --harmony node_modules/.bin/rc-server",
+    "saucelabs": "DEBUG=saucelabs-runner gulp saucelabs"
+
+  },
+  "author": "",
+  "license": "ISC"
+}
